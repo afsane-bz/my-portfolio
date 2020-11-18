@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+    <div class="content-wrapper">
+<div class="nav-link">
+    <div class="nav-link-rightside">
+        <a href="index.html">Home</a>
+    </div>
+    <div class="nav-link-left-side">
+        <a href="#">Portfolio</a>
+
+    </div>
+    <ul class="nav-links">
+        <li><a href=".About.html">About Me</a></li>
+        <hr>
+        <li><a href="artwork.html">Artworks</a></li>
+        <hr>
+        <li><a href="movies.html">Favorite Movies</a></li>
+        <hr>
+        <li><a href="contact.html">Contact me</a></li>
+    </ul>
+            <div onclick="slide()" class="burger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+</div>
+   
+   <div id="demo">
+       <button onclick="changetoText()">Click here</button>
+   </div>
+    </div>
+    </div>
+    
+    <footer>
+    </p>Copyright&copy;2020</p>
+    </footer>
+</body>
+<script>
+function changetoText(){
+    var x = "Welcome to this page!"
+   
+    document.getElementById("demo").innerHTML=x;
+  document.getElementById('demo').style.color="white";
+  document.getElementById('demo').style.fontSize="50px";
+  document.getElementById('demo').style.textAlign="center";
+
+     return x;
+}
+function slide(){
+    
+}
+</script>
+</html>
