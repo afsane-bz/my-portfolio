@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 /* button */
 button {
@@ -41,7 +40,7 @@ button:focus {
 }
 /* footer */
 .footer {
- display: block;
+  display: block;
   text-align: center;
   justify-content: center;
   font-size: 18px;
@@ -59,7 +58,7 @@ footer p {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   min-height: 5vh;
- 
+
   align-items: center;
 }
 
@@ -107,11 +106,14 @@ a:hover {
   height: 100%;
   right: 0px;
   text-align: center;
-  /* transform: translateX(100%); */
+  transform: translateX(100%);
   transition: transform 0.5s ease-in;
   background-attachment: fixed;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
+}
+.nav-active {
+  transform: translateX(0%);
 }
 .nav-links li {
   list-style: none;
