@@ -54,11 +54,10 @@ footer p {
 /* nav-bar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   min-height: 5vh;
-
   align-items: center;
 }
 
@@ -75,8 +74,36 @@ a:hover {
 }
 .burger {
   cursor: pointer;
+  position: fixed;
+  right: 0%;
+}
+.slider-container {
+  
+  position:relative;
+
+  
+}
+.slider-container .slider-parent{
+  height: 70vh;   
+   max-width: 250px;  
+     width: 0; 
+     position: fixed;
+     right: 0px;
+      top: 0px;   
+       
+         
+         pointer-events: none;  
+           transition: .2s ;
+           /* overflow-x: hidden; */
 }
 
+/* .slider-container .slider-parent.active {     
+   visibility: visible;     
+    pointer-events: inherit;     
+     transition: .2s all ease-in-out;     
+      opacity: 1;    
+        right: 0; 
+      } */
 .change .line-1 {
   transform: rotateZ(-45deg) translate(-4px, 6px);
 }
