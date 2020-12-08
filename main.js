@@ -19,7 +19,7 @@ menuIcon.addEventListener("click", () => {
   //   });
 
 function openNav(){
-  document.getElementById("sidenav").style.width="250px";
+  document.getElementById("sidenav").style.width="300px";
  
 }
 function closeNav(){
